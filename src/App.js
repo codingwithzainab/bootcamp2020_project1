@@ -6,15 +6,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <img src='images/d.jpg' className="App-logo" alt="logo" />
+        <p> hi </p>
 
         <p>
          rejagnikotrjgy;pkjhoseikdhpkj
          rskljjngmtrjngj
          sjnmbjmgkl br
+
          nnfdsnjnm  
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <img src="./images/d.jpg" alt="err21or"></img>
         <a
           className="App-link"
           href="https://reactjs.org"
