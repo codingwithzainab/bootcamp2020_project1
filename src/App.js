@@ -1,13 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+ import React from 'react';
+ import Dinner from './dinner.js';
+ import App from './App.css';
 
-function App() {
+
+
+function Z() {
   return (
-    <div className="App">
-    <h1>Hellow world from of all us  now 11:17</h1>
- 
+
+
+    <div className='App'>
+      <Dinner dishName = "Chicken karahi" sweetDish= "kheer"/>
+
+      <hr/>
+      <Dinner dishName = "Chicken karahi" sweetDish= "kheer"/>
+      <hr/>
+      <Dinner dishName = "Chicken corma" sweetDish= "Halwa"/>
+      
+
+
     </div>
   );
+    
+  
 }
 
-export default App;
+export default Z;
+
+
+
